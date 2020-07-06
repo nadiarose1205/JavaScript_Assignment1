@@ -9,12 +9,12 @@ router.get('/', function (req, res) {
 
 // get Projects page
 router.get('/', function (req, res) {
-    res.render('projects');
+    res.render('projects', { title: 'Projects'});
 });
 
 // get Services page
 router.get('/', function (req, res) {
-    res.render('services');
+    res.render('services', { title: 'Services'});
 });
 
 // get About Me page
